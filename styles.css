@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #121212; /* Fondo oscuro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e; /* Fondo del contenedor ligeramente más claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #024CAA; /* Barra de separación en azul */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.header-info h1 {
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.header-info h2 {
+    font-size: 1.2em;
+    color: #b0b0b0; /* Gris claro para un contraste sutil */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #024CAA; /* Azul para los títulos de cada sección */
+    margin-bottom: 10px;
+}
+
+p, ul, li {
+    color: #e0e0e0; /* Texto en gris claro para mayor legibilidad */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.position {
+    color: #b0b0b0; /* Texto en gris para el cargo */
+    font-style: italic;
+}
+
+.contact p {
+    margin: 5px 0;
+}
